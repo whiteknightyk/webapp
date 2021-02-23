@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>あなたにニューエクスプレス!</title>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h1>あなたにニューエクスプレス!!</h1>
+            </div><br>
+            <div class="col-12">
+                <p>白水社から出版されている語学書「ニューエクスプレス」からあなたにぴったりな言語を勧めます!</p>
+            </div><br>
+            <div class="col-12">
+                <h4>名前・生年月日を入力して下さい</h4>
+            </div><br>
+            <div class="col-12">
+                <form action="result.php" method="post">
+                <div class="form-group w-50 mx-auto">
+                    <label for="name1">名前</label>
+                    <input type="text" name="yourname" id="name1" class="form-control" placeholder="名前を書いてください" aria-describedby="namehelp">
+                    <small id="namehelp" class="text-muted">名前は自由に記入してください</small>
+                </div>
+                <div class="form-group w-50 mx-auto">
+                    <label for="birthday">生年月日</label>
+                    <input type="date" name="birthday" id="birthday1" class="form-control" aria-describedby="birthdayhelp">
+                    <small id="birthdayhelp" class="text-muted">誕生日を記入してください</small>
+                </div>
+                <input type="submit" class="btn btn-success" value="OK">
+                </form>
+            </div><br>
+            <div class="col-12">
+                <small>made by:<a href="https://twitter.com/shirokuroko_EA">@shirokuroko_EA</a></small><br>
+                <small>※このアプリは白水社とは関係のない個人によるアプリです。</small>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
