@@ -1,0 +1,12 @@
+{
+    "name": "uta-k/newexpress",
+    "authors": [
+        {
+            "name": "whiteknightyk",
+            "email": "whiteknight.yk@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-mbstring": "*"
+    }
+}
